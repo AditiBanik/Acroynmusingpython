@@ -1,0 +1,11 @@
+#acronym using py
+user_input = str(input("enter a phrase:"))
+#used to take the input from the user
+text = user_input.split()
+#to split the pharse
+a = " "
+#declare a new variable
+for  i in text :
+#loop over the text  
+  a = a+str(i[0]).upper()
+print(a)
